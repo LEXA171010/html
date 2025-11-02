@@ -20,7 +20,7 @@ body {
 }   
 .people img{
     margin-top: 10px;
-    border-radius:100px;
+    border-radius: 100%;
     scale: 1;
 
 }
