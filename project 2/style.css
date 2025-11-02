@@ -11,7 +11,6 @@ body {
       border: medium solid black;
     width: 170px;
     height: 260px;
-    text-align: center;
     border-radius: 20px;
     background-color: gray;
     scale: 1.8;
@@ -20,7 +19,7 @@ body {
 }   
 .people img{
     margin-top: 10px;
-    border-radius:100px;
+    border-radius:100%;
     scale: 1;
 
 }
@@ -40,13 +39,16 @@ body {
 }
 
 .why{
+    
     scale: 4;
     padding: 70px;
 }
 
 .logo{
-    scale: 1.5;
-    padding: 50px;
+    position: absolute;
+    top: 1%;
+    left: .5%;
+  
 }
 .example h1{
     scale: 2;
@@ -59,9 +61,13 @@ body {
 
 }
 .video {
-    padding: 60px;
-    scale: 1.4;
 
+    position: absolute;
+    left: 0%;
+    padding: 60px;
+    scale: 1
+    
+    
 }
 .advantages {
     scale: 2;
@@ -86,10 +92,6 @@ body {
     scale: 2;
 
 }
-video {
- 
-    border-radius: 9px;
-}
 .alt a {
     text-decoration: none;
     color: #fff;
@@ -97,3 +99,8 @@ video {
 .alt a:hover{
     color: #dddddd;
 }
+.alt h1 {
+    scale: 3.5;
+    padding: 2%;
+}
+
