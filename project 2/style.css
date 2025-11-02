@@ -33,17 +33,17 @@ body {
     justify-content: center;
     padding-top: 100px;
 }
-.alt {
+.name {
     scale: 5;
     padding: 60px;
 }
 
-.what{
+.why{
     scale: 4;
     padding: 70px;
 }
 
-.gif{
+.logo{
     scale: 1.5;
     padding: 50px;
 }
